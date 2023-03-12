@@ -23,7 +23,7 @@ SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
 
 
 @app.on_message(
-    filters.command(SHUFFLE_COMMAND)
+    filters.command(["فنط","تفنيط","خلط","/shuffle],"")
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
