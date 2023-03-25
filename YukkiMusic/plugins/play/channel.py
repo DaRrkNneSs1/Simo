@@ -21,7 +21,7 @@ CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
 
 
 @app.on_message(
-    filters.command(CHANNELPLAY_COMMAND)
+    filters.command("قناه")
     & filters.group
     & ~filters.edited
     & ~BANNED_USERS
