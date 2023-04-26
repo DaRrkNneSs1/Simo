@@ -1,7 +1,6 @@
 import asyncio
 from pyrogram import Client, filters
 from strings import get_command
-from strings.filters import command
 from StarMusic.utils.decorators import AdminActual
 from pyrogram.types import (
     CallbackQuery,
