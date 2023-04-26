@@ -2,7 +2,6 @@
 import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from strings.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from typing import Union
 from StarMusic import app
