@@ -11,7 +11,7 @@ from pyrogram.types import (
     InputMediaPhoto,
     Message,
 )
-from StarMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 
 @app.on_message(filters.regex("^$"))
 async def khalid(client: Client, message: Message):
