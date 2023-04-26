@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import Client, filters
 from strings import get_command
-from StarMusic.utils.decorators import AdminActual
+from YukkiMusic.utils.decorators import AdminActual
 from pyrogram.types import (
     CallbackQuery,
     InlineKeyboardButton,
