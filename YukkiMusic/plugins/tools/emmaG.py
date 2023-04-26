@@ -4,7 +4,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from typing import Union
-from StarMusic import app
+from YukkiMusic import app
 
 @app.on_message(command("طرح"))
 async def Saidi(_, message: Message):
