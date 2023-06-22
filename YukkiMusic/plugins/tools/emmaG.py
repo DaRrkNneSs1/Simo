@@ -12,7 +12,7 @@ async def Saidi(_, message: Message):
     JABWA = "بلح"
     await message.reply_text(AHMAD)
    
-@app.on_message(command("تويت"))
+@app.on_message(command("تويت","كت"))
 async def bottttt(client, message):
     selections = ["اخر افلام شاهدتها", 
 "آخر مرة زرت مدينة الملاهي ؟ ",
